@@ -45,7 +45,11 @@ public LandingPageStepDefinition(TestContextSetup testContextSetup)
 		landingPage.searchItem(shortName);
 		Thread.sleep(2000);
 		testContextSetup.landingPageProductName= landingPage.getProductName().split("-")[0].trim();
-		System.out.println(landingPageProductName +" is extracted from Home page");
+		System.out.println(landingPageProductName +" is extracted from Home page1");
+		
+		System.out.println(landingPageProductName +" is extracted from Home page2");
+		
+		System.out.println(landingPageProductName +" is extracted from Home page3");
 			
 }
 
